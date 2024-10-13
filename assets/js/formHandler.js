@@ -9,4 +9,5 @@ document.getElementById("myForm").addEventListener("submit", function (event) {
   });
 
   console.log(formObject);
+  this.reset();
 });
