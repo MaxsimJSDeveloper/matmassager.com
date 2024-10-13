@@ -1,15 +1,9 @@
 .contact-wrap {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
+  justify-content: space-between;
   margin-bottom: 30px;
   max-width: 1000px;
   margin: 0 auto;
-}
-
-.contact-item {
-  flex: 1;
-  margin-right: 20px;
 }
 
 .contact-box {
@@ -30,7 +24,6 @@
 }
 
 .contact-link {
-  text-decoration: none;
   transition: color 0.3s ease;
 }
 

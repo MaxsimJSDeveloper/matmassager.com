@@ -11,7 +11,9 @@
           <svg class="contact-icon" width="20" height="20" aria-label="Адреса">
             <use href="./assets/img/symbol-defs.svg#icon-city"></use>
           </svg>
-          <span class="contact-text">Вул. Тараса Шевченка, 15, Київ, 01001, Україна</span>
+          <span class="contact-text">
+            Вул. Тараса Шевченка, 15, Київ, 01001, Україна
+          </span>
         </div>
         <div class="contact-box">
           <svg class="contact-icon" width="20" height="20" aria-label="Телефон">
@@ -23,27 +25,35 @@
           <svg class="contact-icon" width="20" height="20" aria-label="Email">
             <use href="./assets/img/symbol-defs.svg#icon-email"></use>
           </svg>
-          <a class="contact-link" href="mailto:info@newcompany.com" aria-label="Написати на email">info@newcompany.com</a>
+          <a
+            class="contact-link"
+            href="mailto:info@newcompany.com"
+            aria-label="Написати на email"
+            >info@newcompany.com</a
+          >
         </div>
         <div class="contact-box">
-          <svg class="contact-icon" width="20" height="20" aria-label="Місцезнаходження">
+          <svg
+            class="contact-icon"
+            width="20"
+            height="20"
+            aria-label="Місцезнаходження"
+          >
             <use href="./assets/img/symbol-defs.svg#icon-map"></use>
           </svg>
-          <a class="contact-link" href="https://www.google.com/maps?q=Київ,+вул.+Тараса+Шевченка,+15" target="_blank" rel="noopener noreferrer" aria-label="Відкрити на карті">Перейти</a>
+          <a
+            class="contact-link"
+            href="https://www.google.com/maps?q=Київ,+вул.+Тараса+Шевченка,+15"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Відкрити на карті"
+            >Перейти</a
+          >
         </div>
       </div>
-      <form
-        class="application-form"
-        id="myForm"
-        aria-labelledby="booking-heading"
-      >
+      <form class="application-form" id="myForm" aria-labelledby="booking-heading">
         <div class="input-container">
-          <svg
-            class="icon"
-            aria-hidden="true"
-            focusable="false"
-            aria-label="Ім'я"
-          >
+          <svg class="icon" aria-hidden="true" focusable="false">
             <use href="./assets/img/symbol-defs.svg#icon-user"></use>
           </svg>
           <input
@@ -57,12 +67,7 @@
         </div>
 
         <div class="input-container">
-          <svg
-            class="icon"
-            aria-hidden="true"
-            focusable="false"
-            aria-label="Email"
-          >
+          <svg class="icon" aria-hidden="true" focusable="false">
             <use href="./assets/img/symbol-defs.svg#icon-map"></use>
           </svg>
           <input
@@ -76,12 +81,7 @@
         </div>
 
         <div class="input-container">
-          <svg
-            class="icon"
-            aria-hidden="true"
-            focusable="false"
-            aria-label="Телефон"
-          >
+          <svg class="icon" aria-hidden="true" focusable="false">
             <use href="./assets/img/symbol-defs.svg#icon-phone"></use>
           </svg>
           <input
@@ -95,7 +95,9 @@
         </div>
 
         <div class="input-container">
-          <label for="event_type" class="visually-hidden">Тип події</label>
+          <label for="equipment_type" class="visually-hidden"
+            >Тип масажного обладнання</label
+          >
           <select
             name="equipment_type"
             id="equipment_type"
@@ -130,7 +132,7 @@
           />
           <label for="privacy_policy" class="checkbox-label">
             Я погоджуюсь з
-            <a href="./privacy-policy.php">політикою конфіденційності</a>
+            <a href="/privacy-policy/">політикою конфіденційності</a>
           </label>
         </div>
 

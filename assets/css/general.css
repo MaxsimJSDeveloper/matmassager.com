@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "Lora";
-  src: url("../fonts/Lora-Medium.ttf") format("truetype");
+  src: url("../fonts/Lora-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -13,10 +13,18 @@
 
 @font-face {
   font-family: "Inter";
-  src: url("../fonts/Inter_28pt-Regular.ttf") format("truetype");
+  src: url("../fonts/Inter28pt-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  background-color: #212121;
 }
 
 h1,
@@ -46,32 +54,27 @@ a {
   text-decoration: none;
 }
 
-nav {
-  padding: 0;
-}
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-body {
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  margin: 0;
-  background-color: #212121;
-}
-
-.container {
-  margin: 0 auto;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
 button {
   cursor: pointer;
+}
+
+nav {
+  padding: 0;
+}
+
+.section-indentation {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section-color {
+  background-color: #2f2f2f;
 }
 
 .visually-hidden {
@@ -87,14 +90,14 @@ button {
   overflow: hidden;
 }
 
-.section-indentation {
-  padding-top: 40px;
-  padding-bottom: 40px;
+.container {
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 @media (min-width: 768px) {
   .container {
-    margin: 0 auto;
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -102,7 +105,6 @@ button {
 
 @media (min-width: 1200px) {
   .container {
-    margin: 0 auto;
     padding-right: 60px;
     padding-left: 60px;
   }
@@ -120,8 +122,4 @@ button {
   margin-bottom: 20px;
   color: #bc992e;
   text-align: center;
-}
-
-.section-color {
-  background-color: #2f2f2f;
 }
