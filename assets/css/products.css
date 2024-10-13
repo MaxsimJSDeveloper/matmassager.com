@@ -1,0 +1,35 @@
+.products-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.products-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.products-description-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  color: #bc992e;
+  margin-bottom: 10px;
+}
+
+.products-description-text {
+  color: #ffecb3;
+}
+
+@media (min-width: 900px) {
+  .products-list-item {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .products-list-item:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+}

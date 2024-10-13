@@ -1,10 +1,51 @@
+.contact-wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contact-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-icon {
+  fill: #bc992e;
+  margin-right: 10px;
+}
+
+.contact-text,
+.contact-link {
+  color: #ffecb3;
+  font-size: 14px;
+}
+
+.contact-link {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #bc992e;
+}
+
 .application-form {
-  background: #fff;
+  background: #2f2f2f;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   max-width: 450px;
   margin: 0 auto;
+  color: #ffecb3;
 }
 
 .input-container {
@@ -19,16 +60,25 @@
   width: 20px;
   height: 20px;
   pointer-events: none;
+  fill: #bc992e;
 }
 
 .input-field,
 .select-field,
 .textarea-field {
   padding: 10px 10px 10px 30px;
-  border: 1px solid #ccc;
+  border: 1px solid #bc992e;
   border-radius: 4px;
   width: 100%;
   box-sizing: border-box;
+  background-color: #212121;
+  color: #ffecb3;
+}
+
+.input-field::placeholder,
+.select-field::placeholder,
+.textarea-field::placeholder {
+  color: #ffecb3;
 }
 
 .textarea-field {
@@ -38,11 +88,12 @@
 
 .checkbox {
   margin-right: 5px;
+  accent-color: #bc992e;
 }
 
 .submit-button {
-  background-color: #007bff;
-  color: white;
+  background-color: #bc992e;
+  color: #fff;
   border: none;
   padding: 10px;
   border-radius: 4px;
@@ -52,10 +103,15 @@
 }
 
 .submit-button:hover {
-  background-color: #0056b3;
+  background-color: #ffecb3;
+  color: #212121;
 }
 
 @media (max-width: 768px) {
+  .contact-wrap {
+    flex-direction: column;
+  }
+
   .application-form {
     max-width: 90%;
     padding: 15px;

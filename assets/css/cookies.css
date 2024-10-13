@@ -3,7 +3,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #f9f9f9;
+  background-color: #757575;
   padding: 15px;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -14,6 +14,12 @@
 .cookie-notice .notice {
   margin: 0 0 10px;
   display: block;
+  color: #ffa000;
+}
+
+.link-to-policy {
+  color: #00bcd4;
+  text-decoration: underline;
 }
 
 .cookie-btn {
@@ -25,11 +31,11 @@
 }
 
 #accept-cookies {
-  background-color: #4caf50;
-  color: white;
+  background-color: #caffcc;
+  color: #4caf50;
 }
 
 #reject-cookies {
-  background-color: #f44336;
-  color: white;
+  background-color: #ffcdd2;
+  color: #d32f2f;
 }

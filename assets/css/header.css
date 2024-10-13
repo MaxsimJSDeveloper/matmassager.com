@@ -1,6 +1,7 @@
 .header {
-  background-color: #ff6f61;
+  background-color: #2f2f2f;
   height: 80px;
+  width: 100%;
 }
 
 .header-container {
@@ -10,9 +11,14 @@
   align-items: center;
 }
 
+.logo {
+  margin-left: 30px;
+}
+
 .logo-svg {
   width: 60px;
   height: 70px;
+  fill: #bc992e;
 }
 
 .nav {
@@ -28,7 +34,7 @@
 }
 
 .nav-item-link {
-  color: #fafafa;
+  color: #ffecb3;
   transition: background-color 0.3s;
 }
 
@@ -39,8 +45,8 @@
 .burger-menu {
   display: flex;
   cursor: pointer;
-  stroke: #fafafa;
-  fill: #fafafa;
+  stroke: #ffb74d;
+  fill: #ffb74d;
 }
 
 @media (min-width: 768px) {
