@@ -10,7 +10,7 @@
     <meta name="keywords" content="конфіденційність, персональні дані, політика, sport.ua, захист даних">
     <link rel="icon" type="image/svg+xml" href="/assets/img/favicon.webp" />
     <link rel="stylesheet" href="/assets/css/general.css">
-    <link rel="stylesheet" href="/assets/css/privacy-policy.css">
+    <link rel="stylesheet" href="/assets/css/policy.css">
     <title>Політика конфіденційності</title>
 </head>
 <body>

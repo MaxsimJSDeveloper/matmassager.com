@@ -26,6 +26,8 @@
         <?php include './public/components/advantages.php' ?>
         <?php include './public/components/contacts.php' ?>
     </main>
+    <?php include './public/components/footer.php' ?>
+
     <?php include './public/components/nav-modal.php' ?>
     <?php include './public/components/cookie-notice.php' ?>
     

@@ -117,8 +117,8 @@
           <textarea
             name="message"
             class="textarea-field"
-            placeholder="Додаткові запити"
-            aria-label="Додаткові запити"
+            placeholder="Коментар до замовлення"
+            aria-label="Коментар до замовлення"
           ></textarea>
         </div>
 
