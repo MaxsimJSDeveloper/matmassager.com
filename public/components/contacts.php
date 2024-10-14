@@ -105,7 +105,7 @@
             required
             aria-label="Тип масажного обладнання"
           >
-            <option value="" disabled selected>Тип масажного обладнання</option>
+            <option value="" disabled selected>Виберіть тип масажного обладнання</option>
             <option value="Infrared Massager">Інфрачервоний масажер</option>
             <option value="Hydro Massage Bath">Гідромасажна ванна</option>
             <option value="Massage Table">Масажний стіл</option>
@@ -131,7 +131,7 @@
             required
           />
           <label for="privacy_policy" class="checkbox-label">
-            Я погоджуюсь з
+            Я ознайомлений з
             <a href="/privacy-policy/">політикою конфіденційності</a>
           </label>
         </div>
