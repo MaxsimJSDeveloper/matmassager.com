@@ -13,12 +13,25 @@
 
 .logo {
   margin-left: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .logo-svg {
   width: 60px;
   height: 70px;
   fill: #bc992e;
+  filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+  transition: transform 0.3s;
+}
+
+.logo-txt {
+  color: #f8c633;
+  text-transform: capitalize;
+  margin-left: 10px;
+  transition: color 0.3s;
+  font-family: "Lora", serif;
 }
 
 .nav {

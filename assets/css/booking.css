@@ -116,3 +116,17 @@
     padding: 10px;
   }
 }
+
+#successMessage {
+  display: none;
+  color: #ffecb3;
+  font-weight: bold;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #212121;
+  border: 1px solid #009200;
+  padding: 10px;
+  z-index: 1000;
+  border-radius: 15px;
+}

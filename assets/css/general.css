@@ -105,13 +105,13 @@ nav {
 
 @media (min-width: 1200px) {
   .container {
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 80px;
+    padding-left: 80px;
   }
 
   .section-indentation {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 }
 

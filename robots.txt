@@ -1,0 +1,2 @@
+Host: https://matmassager.com/
+Sitemap: https://matmassager.com/sitemap.xml
