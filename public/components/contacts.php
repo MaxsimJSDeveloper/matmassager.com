@@ -12,14 +12,14 @@
             <use href="./assets/img/symbol-defs.svg#icon-city"></use>
           </svg>
           <span class="contact-text">
-            Вул. Тараса Шевченка, 15, Київ, 01001, Україна
+            Вул. Тараса Шевченка, 18, Київ, 01001, Україна
           </span>
         </div>
         <div class="contact-box">
           <svg class="contact-icon" width="20" height="20" aria-label="Телефон">
             <use href="./assets/img/symbol-defs.svg#icon-phone"></use>
           </svg>
-          <span class="contact-text">+380 44 923 45 67</span>
+          <span class="contact-text">+380 94 923 45 67</span>
         </div>
         <div class="contact-box">
           <svg class="contact-icon" width="20" height="20" aria-label="Email">
@@ -27,7 +27,7 @@
           </svg>
           <a
             class="contact-link"
-            href="mailto:info@newcompany.com"
+            href="mailto:info@matmassager.com"
             aria-label="Написати на email"
             >info@matmassager.com</a
           >
@@ -43,7 +43,7 @@
 
                 <div class="input-container">
                     <svg class="icon" aria-hidden="true" focusable="false">
-                        <use href="./assets/img/symbol-defs.svg#icon-map"></use>
+            <use href="./assets/img/symbol-defs.svg#icon-email"></use>
                     </svg>
                     <input type="email" name="email" class="input-field" placeholder="Email" required aria-label="Email" itemprop="email" />
                 </div>
