@@ -1,4 +1,4 @@
-<section class="section-indentation bg-img" aria-labelledby="booking-heading" itemscope itemtype="https://schema.org/Product">
+<section class="section-indentation bg-img" aria-labelledby="booking-heading" itemscope itemtype="https://schema.org/WebPage">
     <div class="container full-size">
         <h1 class="main-title" itemprop="name">Ексклюзивне обладнання для масажу</h1>
         <div class="about-btn-wrap">

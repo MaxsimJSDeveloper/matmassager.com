@@ -86,12 +86,12 @@
                     </label>
                 </div>
 
-                <input type="submit" value="Надіслати" class="submit-button" />
-            </form>
+            <input type="submit" value="Надіслати" class="submit-button" />
+        </form>
 
-            <div id="successMessage">
-                Дані успішно надіслані!
-            </div>
+        <div id="successMessage" style="display: none;">
+            Дані успішно надіслані!
+        </div>
     </div>
   </div>
 </section>

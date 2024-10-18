@@ -3,7 +3,7 @@
     <h2 class="title">Наші Товари</h2>
 
     <ul class="products-list">
-      <li class="products-list-item" itemscope itemtype="https://schema.org/Product">
+      <li class="products-list-item" itemscope itemtype="https://schema.org/Item">
         <div class="products-info">
           <h3 class="products-description-title" itemprop="name">Інфрачервоні масажери</h3>
           <p class="products-description-text" itemprop="description">
@@ -13,7 +13,7 @@
         <img src="./assets/img/infrared-massager.webp" alt="Інфрачервоний масажер" width="300" loading="lazy" itemprop="image">
       </li>
 
-      <li class="products-list-item" itemscope itemtype="https://schema.org/Product">
+      <li class="products-list-item" itemscope itemtype="https://schema.org/Item">
         <div class="products-info">
           <h3 class="products-description-title" itemprop="name">Гідромасажні ванни</h3>
           <p class="products-description-text" itemprop="description">
@@ -23,7 +23,7 @@
         <img src="./assets/img/hydromassage.webp" alt="Гідромасажна ванна" width="300" loading="lazy" itemprop="image">
       </li>
 
-      <li class="products-list-item" itemscope itemtype="https://schema.org/Product">
+      <li class="products-list-item" itemscope itemtype="https://schema.org/Item">
         <div class="products-info">
           <h3 class="products-description-title" itemprop="name">Масажні столи</h3>
           <p class="products-description-text" itemprop="description">
@@ -33,7 +33,7 @@
         <img src="./assets/img/massage-table.webp" alt="Масажний стіл" width="300" loading="lazy" itemprop="image">
       </li>
 
-      <li class="products-list-item" itemscope itemtype="https://schema.org/Product">
+      <li class="products-list-item" itemscope itemtype="https://schema.org/Item">
         <div class="products-info">
           <h3 class="products-description-title" itemprop="name">Масажні крісла</h3>
           <p class="products-description-text" itemprop="description">

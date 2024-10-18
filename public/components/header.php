@@ -1,10 +1,12 @@
 <header class="header" itemscope itemtype="https://schema.org/Organization">
     <div class="header-container">
         <div class="logo" role="img" aria-label="Логотип компанії" itemprop="logo">
-            <svg class="logo-svg">
+            <a class="logo" href="/" role="img" aria-label="Логотип компанії" itemprop="url">
+            <svg class="logo-svg" itemprop="logo">
                 <use href="./assets/img/symbol-defs.svg#icon-spa"></use>
             </svg>
-            <a class="logo-txt" href="/" itemprop="url">matmassager</a>
+            <span class="logo-txt" itemprop="name">matmassager</span>
+        </a>
         </div>
         <nav class="nav" aria-label="Основна навігація" itemscope itemtype="https://schema.org/SiteNavigationElement">
             <ul class="nav-list">
